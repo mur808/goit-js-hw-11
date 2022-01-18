@@ -1,0 +1,70 @@
+#root {
+  border-right-color: red;
+}
+
+.search-form {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: aqua;
+  height: 60px;
+  text-align: center;
+}
+.search-form button {
+  height: 40px;
+  border-radius: 5px;
+}
+input {
+  width: 300px;
+  height: 40px;
+  margin: 0 auto;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+.load-more {
+  display: none;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 100px;
+  height: 40px;
+  background-color: rgb(127, 127, 238);
+  border-radius: 5px;
+  border: blue;
+  color: white;
+}
+.gallery {
+  justify-content: center;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.photo-card {
+  border-radius: 5px;
+  box-shadow: 0px 1px 2px lightgray;
+}
+.smallImg {
+  justify-content: center;
+  text-align: center;
+}
+.info {
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.info-item {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: aqua;
+  margin: 10px;
+}
+button {
+  background-color: blueviolet;
+  color: aquamarine;
+  cursor: pointer;
+}
